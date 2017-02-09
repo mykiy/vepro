@@ -1,0 +1,54 @@
+
+<div class="header">
+<div class="col-md-12 col-sm-12 col-xs-12">
+	<ul class="nan navbar-fixed top">
+		<li> <%= link_to "My official site", "#" %> </li>
+		<li class="nav pull-right"><%= link_to "Index" , '#' %></li>
+	</ul>
+</div>
+</div>
+
+
+<div class="body">
+    <div class="top">
+    <div class="container">
+	<div class="row">
+		<div class="col-md-12 col-sm-12 col-xs-12">
+		<p class="para"><span>A</span> centralized system will be helpful you to easily manage the students 	repository</p><br/><br/><br/><br/>
+		</div>
+	</div>
+	</div>
+	</div>
+        <div class="bottom">
+		<div class="container">
+		<div class="row">
+		<div class="col-md-6 col-sm-12 col-xs-6">
+	 
+		<%= form_for(:session, url: login_path) do |f| %>
+       	<%= f.label :email %>
+      	<%= f.email_field :email, class: 'form-control' %>
+      
+
+      
+    
+      	<%= f.label :password %>
+      	<%= f.password_field :password, class: 'form-control' %>
+      
+
+        <br/>
+      	<%= f.submit "Log in", class: "btn btn-primary" %><br><br>
+      	<p> New user?<%= link_to "Sign up" , @signup_path %></p>
+
+    	<% end %>
+    	
+  
+        </div>
+    	</div>
+	  </div>
+	</div>
+</div>
+
+<div class="footer">
+   	<p>@MCA_ACCET<br><br>
+   	Final year project</p>
+</div>

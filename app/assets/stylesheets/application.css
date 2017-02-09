@@ -1,0 +1,97 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+li
+{
+	display:inline-block;
+	font: 24px  bold sans-serif;
+	font-color:yellow;
+
+
+}
+ul
+{
+	list-style:none
+
+}
+.header
+{
+	padding: 35px 30px 35px 35px;
+	background-color: black;
+}
+.body
+{
+	padding: 50px 50px 50px 50px;
+	background-color: grey;
+	border-bottom:  12px;
+}
+.body p
+{
+	color:yellow;
+	font:24px bold;
+	font-family: sans-serif;
+	text-align: center;
+	}
+
+p span
+{
+	color: red;
+
+}
+
+ form {
+  background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  margin: auto;
+  position: relative;
+  left: 300px;
+  width: 550px;
+  height: 300px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 14px;
+  font-style: bold;
+  line-height: 24px;
+  font-weight: bold;
+  color: #09C;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #999;
+  border: inset 1px solid #333;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+     input {
+    background-color: #3CBC8D; 
+    color: #3CBC8D;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.footer p
+{
+	padding: 20px 20px 20px 20px;
+	background: black;
+	font: 22px;
+    text-align: left;
+    color:red;
+   }
+   .bottom p{
+   	color: red;
+   }
